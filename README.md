@@ -1,3 +1,14 @@
+# 默认提示信息
+| 项目 | 信息 |
+|------|------|
+| 管理地址 | 192.168.1.1 root 无密码 |
+| tailscale | tailscale在源安装 面板在https://github.com/Tokisaki-Galaxy/luci-app-tailscale-community/releases |
+| smartdns | 若无ui或无法启动，可在软件包卸载后进ssh安装 /etc/smartdns-ipk 下的版本 |
+| Mihomo | 下载安装https://github.com/nikkinikki-org/OpenWrt-nikki/releases |
+| softethervpn-控制台 | 下载安装https://github.com/SoftEtherVPN/SoftEtherVPN |
+| softethervpn-luci | 下载安装https://github.com/superzjg/luci-app-softethervpn |
+| softethervpn | 下载安装https://github.com/SoftEtherVPN/SoftEtherVPN_Stable |
+
 # 高通410随身WiFi —— 在线云编译 OpenWrt
 
 经常遇见找不到好的固件，不是软件源不能安装，就是版本太老，要不就是别人固件装了自己不需要的插件功能。那就直接编译一个属于自己的openwrt刷机包，简单几步就可以完成编译，本地不需要装任何环境，不需要懂 Linux，不需要懂编译，编译好的固件包傻瓜化一键刷机。
